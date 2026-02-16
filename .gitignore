@@ -1,0 +1,51 @@
+# Dependencies
+/vendor/
+composer.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.phpunit.result.cache
+/coverage/
+*.cache
+
+# Environment
+.env
+.env.backup
+.env.local
+
+# Build files
+/build/
+/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Documentation build
+/docs/_build/
+
+# Package files
+*.zip
+*.tar.gz
+
+# Development files
+FIXES_APPLIED.md
+PROJECT_SUMMARY.md

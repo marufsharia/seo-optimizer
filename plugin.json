@@ -1,0 +1,78 @@
+{
+    "id": "seo-optimizer",
+    "name": "SEO Optimizer",
+    "version": "1.0.0",
+    "description": "Production-ready SEO optimization plugin with meta tags, sitemaps, structured data, Open Graph, Twitter Cards, and redirect management",
+    "author": "Hyro Team",
+    "author_email": "support@hyro.dev",
+    "author_website": "https://hyro.dev",
+    "license": "MIT",
+    "keywords": [
+        "seo",
+        "optimization",
+        "meta-tags",
+        "sitemap",
+        "structured-data",
+        "open-graph",
+        "twitter-cards",
+        "redirects"
+    ],
+    "category": "Marketing & SEO",
+    "icon": "https://via.placeholder.com/256x256.png?text=SEO",
+    "screenshots": [],
+    "demo_url": null,
+    "documentation_url": null,
+    "support_url": null,
+    "changelog_url": null,
+    "pricing": {
+        "type": "free",
+        "price": 0,
+        "currency": "USD",
+        "pro_version": {
+            "available": true,
+            "price": 49,
+            "features": [
+                "SEO Audit System",
+                "AI Meta Generation",
+                "Google Search Console Integration",
+                "Broken Link Checker",
+                "Redirect Analytics",
+                "Advanced Schema Builder",
+                "Performance Insights"
+            ]
+        }
+    },
+    "requirements": {
+        "php": "^8.2",
+        "laravel": "^10.0|^11.0",
+        "hyro": "^1.0"
+    },
+    "dependencies": [],
+    "features": [
+        "Automatic Meta Tag Engine",
+        "Dynamic Title Builder",
+        "Open Graph Tags",
+        "Twitter Cards",
+        "Structured Data (JSON-LD)",
+        "XML Sitemap Generator",
+        "Robots.txt Manager",
+        "301/302 Redirect Manager",
+        "HasSeo Trait for Models",
+        "Polymorphic SEO System",
+        "Admin Dashboard",
+        "Hit Tracking for Redirects"
+    ],
+    "permissions": [
+        "Manage SEO settings",
+        "Manage redirects",
+        "Generate sitemaps",
+        "Edit robots.txt"
+    ],
+    "routes": {
+        "admin": "/hyro/plugins/seo-optimizer",
+        "public": [
+            "/sitemap.xml",
+            "/robots.txt"
+        ]
+    }
+}

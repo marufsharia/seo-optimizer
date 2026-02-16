@@ -1,0 +1,33 @@
+{
+    "name": "hyro-plugins/seo-optimizer",
+    "description": "Production-ready SEO optimization plugin for Hyro with meta tags, sitemaps, structured data, and more",
+    "type": "hyro-plugin",
+    "version": "1.0.0",
+    "keywords": ["hyro", "seo", "optimization", "meta-tags", "sitemap", "structured-data", "open-graph"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hyro Team",
+            "email": "support@hyro.dev"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HyroPlugins\\SeoOptimizer\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "php": "^8.2",
+        "marufsharia/hyro": "^1.0"
+    },
+    "extra": {
+        "hyro": {
+            "providers": [
+                "HyroPlugins\\SeoOptimizer\\Plugin"
+            ]
+        }
+    }
+}
